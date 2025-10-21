@@ -1,6 +1,4 @@
 <?php
-// ...existing code...
-<?php
 require_once "settings.php";
 
 $dbconn = mysqli_connect($host, $user, $pwd, $sql_db);
