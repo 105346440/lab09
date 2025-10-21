@@ -13,7 +13,7 @@ $results = mysqli_query($dbconn, $query);
 if ($results && mysqli_num_rows($results) > 0) {
     echo "<h2>Car Listings</h2>";
     echo "<table border='1' cellpadding='8' cellspacing='0'>";
-    echo "<tr><th>ID</th><th>Make</th><th>Model</th><th>Price ($)</th><th>Year</th></tr>";
+    echo "<tr><th>ID</th><th>Make</th><th>Model</th><th>Price</th><th>Year</th></tr>";
 
     while ($row = mysqli_fetch_assoc($results)) {
         echo "<tr>";
